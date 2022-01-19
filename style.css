@@ -42,7 +42,35 @@
      background: url("./images/home-img.jpeg");
      background-position: center;
      background-size: cover;
+     display: flex;
+     align-items: center;
+     padding: 0px 40px;
+ }
+ .banner h1 {
+     color: white;
+     font-size: 50px;
+ }
+ .banner p{
+     color: white;
+ }
+ .banner button{
+     margin-top: 10px;
+     padding: 10px 30px;
+     background-color: yellow;
+     font-weight: 700;
+     outline: 0;
+     border: 0;
+     cursor: pointer;
+     transition: 0.5s all;
+ }
+ .banner button:hover{
+     letter-spacing: 2px;
  }
  
  /* banner css end */
+
+
+
+
+ 
  
