@@ -1,7 +1,11 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Mukta:wght@200;300;400;500;600&display=swap');
+
 *{
     margin:0 ;
     padding: 0;
-    box-sizing: border-box;
+    font-family: dosis , mukta ,sans-serif ;
+    
 }
 /* header css start */
 .header{
@@ -21,27 +25,34 @@
      color: white;
      font-size: 18px;
      text-transform: uppercase;
-     font-weight: 500;
+     font-weight: 900;
      margin: 0px 4px;
-     transition: 0.3s;
+     transition: 0.3s linear all;
  }
- .header .navber a :hover{
-     color: #d3d3d3;
-     border-bottom: 1px solid #d3d3d3;
+
+ .header .navber a:hover{
+     color: #d67943;
+     border-bottom: 1px solid #e0773a;
  }
  .header .icons .icon-button{
      color: white;
      margin: 0px 10px;
+     transition: 0.4s linear all;
+ }
+
+ .header .icons .icon-button:hover{
+    color: #d67943;
  }
  /* header css end */
 
  /* banner css start */
  .banner{
-     height: 80vh;
+     height: 100vh;
      width: 100vw;
      background: url("./images/home-img.jpeg");
      background-position: center;
      background-size: cover;
+     background-repeat: no-repeat;
      display: flex;
      align-items: center;
      padding: 0px 40px;
@@ -55,20 +66,40 @@
  }
  .banner button{
      margin-top: 10px;
-     padding: 10px 30px;
+     padding: 10px 40px;
      background-color: yellow;
      font-weight: 700;
      outline: 0;
-     border: 0;
+     border: 1px solid yellow;
      cursor: pointer;
-     transition: 0.5s all;
+     transition: 0.5s linear all;
  }
  .banner button:hover{
      letter-spacing: 2px;
+     color: #fff;
+     background-color: tomato;
+     border: 1px solid tomato;
  }
  
  /* banner css end */
+ 
+ /* About Us Start */
 
+  .about-us{
+     width: 100vw;
+     height: 600px;
+     background-color: #000;
+     padding-top: 30px;
+     padding: 0px 40px;
+
+  }
+
+  .about-us h1{
+      color: wheat;
+      text-align: center;
+  }
+
+ /* About Us End */
 
 
 
